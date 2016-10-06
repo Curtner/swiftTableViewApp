@@ -33,7 +33,7 @@
                     <navigationItem key="navigationItem" id="AbI-yc-k6e"/>
                     <connections>
                         <outlet property="coolTable" destination="CSR-eF-MdZ" id="5Ug-Ad-8z5"/>
-                        <segue destination="mVM-dS-nhL" kind="presentation" identifier="moveSegue" id="szI-tq-ekc"/>
+                        <segue destination="mVM-dS-nhL" kind="push" identifier="moveSegue" id="szI-tq-ekc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -71,6 +71,7 @@
                             <constraint firstItem="gdm-Qe-R3a" firstAttribute="centerX" secondItem="ToZ-Ui-los" secondAttribute="centerX" id="v9Q-2v-JA8"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="L8k-05-feS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LZM-k9-mXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
